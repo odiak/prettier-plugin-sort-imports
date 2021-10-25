@@ -5,8 +5,13 @@
     "singleQuote": true,
     "jsxBracketSameLine": true,
     "semi": true,
-    "importOrder": ["^@server/(.*)$", "^@core/(.*)$", "<THIRD_PARTY_MODULES>", "^@ui/(.*)$", "^[./]"],
+    "importOrder": [
+        "^@server/(.*)$",
+        "^@core/(.*)$",
+        "<THIRD_PARTY_MODULES>",
+        "^@ui/(.*)$",
+        "^[./]"
+    ],
     "importOrderSeparation": true,
-    "importOrderParserPlugins" : ["typescript"]
-
+    "importOrderParserPlugins": ["typescript"]
 }

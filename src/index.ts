@@ -1,6 +1,8 @@
 import { parsers as babelParsers } from 'prettier/parser-babel';
 import { parsers as flowParsers } from 'prettier/parser-flow';
 import { parsers as typescriptParsers } from 'prettier/parser-typescript';
+// @ts-ignore
+import { parsers as svelteParsers } from 'prettier-plugin-svelte';
 import { preprocessor } from './preprocessor';
 
 const options = {
@@ -52,6 +54,10 @@ module.exports = {
         },
         typescript: {
             ...typescriptParsers.typescript,
+            preprocess: preprocessor,
+        },
+        svelte: {
+            ...svelteParsers.svelte,
             preprocess: preprocessor,
         },
     },
