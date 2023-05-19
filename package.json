@@ -5,10 +5,10 @@
   "main": "lib/src/index.js",
   "types": "types/index.d.ts",
   "repository": {
-    "url": "https://github.com/trivago/prettier-plugin-sort-imports",
+    "url": "https://github.com/odiak/prettier-plugin-sort-imports",
     "type": "git"
   },
-  "homepage": "https://github.com/trivago/prettier-plugin-sort-imports#readme",
+  "homepage": "https://github.com/odiak/prettier-plugin-sort-imports#readme",
   "scripts": {
     "prepare": "yarn run compile",
     "compile": "tsc",
@@ -27,9 +27,9 @@
     "javascript"
   ],
   "author": {
-    "name": "Ayush Sharma",
-    "email": "ayush.sharma@trivago.com",
-    "url": "https://github.com/ayusharma"
+    "name": "Kaido Iwamoto",
+    "email": "kaido@odiak.net",
+    "url": "https://github.com/odiak"
   },
   "license": "Apache-2.0",
   "dependencies": {
